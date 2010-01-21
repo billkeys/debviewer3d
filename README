@@ -1,0 +1,26 @@
+debviewer3d - Visualizes Dependencies of deb packages
+
+Overview: 
+          Displays a 3D graph with dependencies of a defined Ubuntu package. 
+          Also lets the user interact and get more information about 
+          the displayed packages.                       
+
+Usage:
+          ./debviewer3d <packageName>
+         
+          If no package is defined the default openscenegraph package will be displayed.
+          Click on the name of package to display more information then click on it again
+          to toggle it back.
+          The user can also use the mouse to change the view of the display.
+          The color of each package depends on the section type of the package:
+          libs = red, editors = green, python = white, unknown = black,
+          web = purple,graphics = yellow, interpreters = blue, universe orange
+      
+          Press q to exit
+
+          Example:
+           ./debviewer3d vim
+
+Install:
+          Please read the file INSTALL for installation instructions
+

@@ -1,0 +1,11 @@
+
++ Platform
+  Designed to be installed on Ubuntu Linux
+
++ Build Dependencies
+  # apt-get install openscenegraph apt-rdepends libboost1.40-all-dev libopenscenegraph-dev libopenscenegraph56
+
++ Build
+  $ make
+
+
